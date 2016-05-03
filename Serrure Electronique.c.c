@@ -91,8 +91,8 @@ if(Kp==35) Lcd_menu();
 }
 
 void main(){
-for(;;){
 Lcd_menu();
+for(;;){
 Lire_Pad();
 if(Kp==52) Lcd_off();
 if(Kp==49) configuration();
